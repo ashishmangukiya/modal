@@ -1,0 +1,44 @@
+:root{
+    font-size: 16px;
+}
+.background {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.5;
+}
+.content {
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #222;
+    display: none;
+    height: 25vh;
+    left: 30%;
+    top: 30%;
+    padding: 10px;
+    position: fixed;
+    width: 30vw;
+}
+.launcher{
+    width: 20vw;
+    padding: 4px;
+    color: white;
+    font-size: 0.7rem;
+    background: green;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+.close{
+    float: right;
+    color: white;
+    border: 1px solid green;
+    background: green;
+    font-size: 0.7rem;
+    border-radius: 5px;
+}
+.background.active, .content.active {
+    display: block;
+}​
+
